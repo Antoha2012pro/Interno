@@ -1,5 +1,9 @@
 :root {
-
+    --title-color: #292F36;
+    --menu-color: #CDA274;
+    --text-color: #4D5053;
+    --color: #FFF;
+    --bcg-color: #F4F0EC;     
 }
 
 /* font-family: "Inter", sans-serif;
@@ -24,6 +28,10 @@ h1, h2, h3, h4, h5, h5, h6, p {
     margin: 0;
     padding: 0;
     font-weight: 400;
+}
+
+body {
+    font-family: "Jost", sans-serif;
 }
 
 .container {
