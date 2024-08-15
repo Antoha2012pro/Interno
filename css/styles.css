@@ -5,6 +5,7 @@
   --color: #fff;
   --bcg-color: #f4f0ec;
   --btn-color: #292929;
+  --border-color: #E7E7E7;
 }
 
 /* font-family: "Inter", sans-serif;
@@ -260,12 +261,12 @@ body {
 .about-us > .container {
   display: flex;
   align-items: center;
+  gap: 77px;
 }
 
 .about-us-box {
-  padding-top: 13.2px;
-  padding-right: 61px;
-  padding-bottom: 9.8px;
+  margin-top: 13.2px;
+  margin-bottom: 9.8px;
 }
 
 .about-us-title {
@@ -297,8 +298,8 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .about-us-link {
@@ -398,7 +399,6 @@ body {
 .we-item-img {
   width: 77px;
   height: 77px;
-  margin-bottom: 25px;
   margin-right: 20px;
 }
 
@@ -430,6 +430,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.22px;
+  margin-top: 25px;
 }
 
 .we-item:nth-child(2) > .we-item-text {
@@ -438,6 +439,359 @@ body {
 
 .we-item:nth-child(3) > .we-item-text {
   width: 274px;
+}
+
+.logos {
+  padding-bottom: 115px;
+}
+
+.logos-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos-item:nth-child(1) > .logos-img {
+  width: 132px;
+  margin-right: 125px;
+}
+
+.logos-item:nth-child(2) > .logos-img {
+  width: 103px;
+  margin-right: 110px; 
+}
+
+.logos-item:nth-child(3) > .logos-img {
+  width: 164px;
+  margin-right: 89px; 
+}
+
+.logos-item:nth-child(4) > .logos-img {
+  width: 145px;
+  margin-right: 112px; 
+}
+
+.logos-item:nth-child(5) > .logos-img {
+  width: 117px;
+}
+
+.projects {
+  padding-bottom: 80px;
+}
+
+.projects-title {
+  color: var(--title-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 62.4px;
+  letter-spacing: 0.22px;
+}
+
+.projects-text {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 20px;
+  margin-bottom: 71px;
+}
+
+.projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects-item {
+  flex-basis: calc((100% - 20px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+  width: 590px;
+  margin-bottom: 40px;
+}
+
+.projects-item:not(:nth-child(-n+2)) {
+  margin-bottom: 0;
+}
+
+.projects-item-img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.projects-item-title {
+  width: 505px;
+  color: var(--title-color);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.5px;
+  letter-spacing: 0.22px;
+}
+
+.projects-item-text {
+  color: var(--text-color);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+
+.projects-item-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background: var(--bcg-color);
+  border: none;
+}
+
+.projects-btn-img {
+  width: 9px;
+  height: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.statistics {
+  background: var(--bcg-color);
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.statistics-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-item {
+  text-align: center;
+  border-right: 1px solid var(--menu-color);
+  width: 288px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.statistics-item:last-child {
+  border: none;
+}
+
+.statistics-title {
+  color: var(--menu-color);
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 127.5px;
+  letter-spacing: 1.7px;
+}
+
+.statistics-text {
+  color: var(--text-color);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+
+.blogs {
+  padding-top: 143px;
+}
+
+.blogs-title {
+  color: var(--title-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px; /* 130% */
+  letter-spacing: 0.22px;
+}
+
+.blogs-text {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 21px;
+  margin-bottom: 103px;
+}
+
+.blogs-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blogs-item {
+  flex-basis: calc((100% - 40px) / 3);
+  border-radius: 62px;
+  border: 1px solid var(--border-color);
+  padding-left: 21px;
+  padding-top: 21px;
+  padding-bottom: 41px;
+}
+
+.blogs-item-img {
+  width: 100%;
+  margin-bottom: 15px;
+  padding-right: 21px;
+}
+
+.blogs-item-title {
+  width: 345px;
+  margin-bottom: 20px; 
+  color: var(--title-color);
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+.blogs-item:nth-child(1) > .blogs-item-title {
+  width: 334px;
+}
+
+.blogs-item:nth-child(2) > .blogs-item-title {
+  width: 338px;
+}
+
+.blogs-item:nth-child(3) > .blogs-item-title {
+  width: 337px;
+}
+
+.blogs-item:nth-child(4) > .blogs-item-title {
+  width: 321px;
+}
+
+.blogs-item:nth-child(5) > .blogs-item-title {
+  width: 300px;
+}
+
+.blogs-item:nth-child(6) > .blogs-item-title {
+  width: 295px;
+}
+
+.blogs-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogs-item-text {
+  color: var(--text-color);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.22px;
+  width: 144px; 
+}
+
+.blogs-item-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  background: var(--bcg-color);
+  border: none;
+  margin-right: 21px;
+}
+
+.blogs-btn-img {
+  width: 9px;
+  height: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.connect {
+  padding-top: 141px;
+  padding-bottom: 80px;
+}
+
+.connect > .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 70px;
+  background: var(--title-color);
+  padding-top: 100px;
+  padding-bottom: 95px;
+}
+
+.connect-title {
+  color: var(--color);
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0.22px;
+}
+
+.connect-text {
+  color: var(--color);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 9px;
+  margin-bottom: 31px;
+}
+
+.connect-btn {
+  display: flex;
+  align-items: center;
+  background-color: var(--menu-color);
+  border: none;
+  border-radius: 18px;
+  padding: 16px 15px 16px 34px;
+  gap: 27px;
+}
+
+.connect-box {
+  color: var(--color);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.22px;
+  width: 140px;
+}
+
+.connect-img {
+  width: 25px;
+  height: 36px;
 }
 
 /* Футер */
