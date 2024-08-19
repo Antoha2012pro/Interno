@@ -904,6 +904,8 @@ body {
   height: 1px;
   margin-top: 109.8px;
   margin-bottom: 35.2px;
+  margin-left: -120px;
+  margin-right: -120px;
 }
 
 .footer-copyright {
