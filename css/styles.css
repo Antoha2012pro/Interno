@@ -781,9 +781,12 @@ body {
 }
 
 .footer-section {
+  padding-bottom: 109.8px;
+}
+
+.footer-section > .container {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 109.8px;
 }
 
 .footer-logos-box {
@@ -900,8 +903,11 @@ body {
 
 .footer-copyright {
   border-top: 1px solid var(--line-color);
-  text-align: center;
   padding-top: 35.2px;
+}
+
+.footer-copyright > .container {
+  text-align: center;
 }
 
 .footer-copyright-title {
