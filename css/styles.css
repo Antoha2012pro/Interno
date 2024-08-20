@@ -115,7 +115,7 @@ body {
 /* Меін */
 
 .hero {
-  background-image: url(../img/hall.png);
+  background-image: url(../img/hall.webp);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
