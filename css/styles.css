@@ -9,10 +9,6 @@
   --line-color: #E5E5E5;
 }
 
-/* font-family: "Inter", sans-serif;
-font-family: "DM Serif Display", serif;
-font-family: "Jost", sans-serif; */
-
 a {
   text-decoration: none;
 }
@@ -49,8 +45,6 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-/* Хедер */
 
 .header {
   padding-top: 20px;
@@ -111,8 +105,6 @@ body {
 .header-link:focus {
   color: var(--menu-color);
 }
-
-/* Меін */
 
 .hero {
   background-image: url(../img/hall.webp);
@@ -772,8 +764,6 @@ body {
   width: 25px;
   height: 36px;
 }
-
-/* Футер */
 
 .footer {
   padding-top: 50px;
